@@ -1,0 +1,50 @@
+/* 导航栏固定样式 */
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 999;
+}
+
+/* Banner动态渐变背景 */
+.banner-bg {
+    background: linear-gradient(120deg, #2C3E50, #FF7F24, #2C3E50);
+    background-size: 200% 200%;
+    animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* 图片hover提示 */
+.tutorial-img-container:hover .img-tooltip {
+    opacity: 1;
+}
+
+/* 滚动渐入动画 */
+.fade-in {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* 响应式适配 */
+@media (max-width: 768px) {
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    .benefit-card, .tutorial-card {
+        margin-bottom: 1rem;
+    }
+}

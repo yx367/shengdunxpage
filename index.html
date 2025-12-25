@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>深蹲科普 - 正确深蹲的好处与方法</title>
+    <!-- 引入Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 引入Font Awesome图标（用于好处模块的图标） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入自定义样式 -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-100 font-sans text-gray-800">
+    <!-- 顶部导航栏 -->
+    <nav id="navbar" class="w-full py-4 transition-all duration-300">
+        <div class="container mx-auto px-4 md:px-8 flex justify-center md:justify-between items-center">
+            <h1 class="text-2xl font-bold text-orange-500 hidden md:block">深蹲科普</h1>
+            <div class="flex gap-6 md:gap-8">
+                <a href="#benefits" class="nav-link text-gray-700 hover:text-orange-500 transition-colors">好处</a>
+                <a href="#tutorial" class="nav-link text-gray-700 hover:text-orange-500 transition-colors">动作教学</a>
+                <a href="#mistakes" class="nav-link text-gray-700 hover:text-orange-500 transition-colors">常见错误</a>
+                <a href="#plan" class="nav-link text-gray-700 hover:text-orange-500 transition-colors">训练计划</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页Banner -->
+    <section class="banner relative h-[70vh] flex items-center justify-center overflow-hidden">
+        <div class="banner-bg absolute inset-0"></div>
+        <div class="relative z-10 text-center px-4">
+            <h2 class="text-[clamp(2.5rem,5vw,4rem)] font-bold text-white mb-4 drop-shadow-lg">
+                正确深蹲 <span class="text-orange-400">解锁健康与力量</span>
+            </h2>
+            <p class="text-[clamp(1rem,2vw,1.25rem)] text-white/90 max-w-2xl mx-auto mb-8">
+                掌握科学的深蹲方法，收获强健体魄、完美体态与充沛精力
+            </p>
+            <a href="#benefits" class="px-8 py-3 bg-orange-500 text-white rounded-full hover:scale-105 transition-transform hover:bg-orange-600">
+                了解更多
+            </a>
+        </div>
+    </section>
+
+    <!-- 深蹲好处模块 -->
+    <section id="benefits" class="py-20 container mx-auto px-4 md:px-8">
+        <h3 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold text-gray-800 text-center mb-16">
+            深蹲的<span class="text-orange-500">核心好处</span>
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+            <!-- 好处1 -->
+            <div class="benefit-card bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow opacity-0 translate-y-8">
+                <i class="fa-solid fa-dumbbell text-4xl text-orange-500 mb-4"></i>
+                <h4 class="text-xl font-semibold mb-2">增强下肢力量</h4>
+                <p class="text-gray-600">激活臀大肌、股四头肌、腘绳肌，打造强壮的腿部与臀部肌群。</p>
+            </div>
+            <!-- 好处2 -->
+            <div class="benefit-card bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow opacity-0 translate-y-8">
+                <i class="fa-solid fa-heart text-4xl text-orange-500 mb-4"></i>
+                <h4 class="text-xl font-semibold mb-2">提升心肺功能</h4>
+                <p class="text-gray-600">复合动作带动全身血液循环，增强心脏泵血能力，改善心肺耐力。</p>
+            </div>
+            <!-- 好处3 -->
+            <div class="benefit-card bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow opacity-0 translate-y-8">
+                <i class="fa-solid fa-bone text-4xl text-orange-500 mb-4"></i>
+                <h4 class="text-xl font-semibold mb-2">强化骨骼健康</h4>
+                <p class="text-gray-600">增加骨骼密度，降低骨质疏松风险，尤其保护髋部和脊柱。</p>
+            </div>
+            <!-- 好处4 -->
+            <div class="benefit-card bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow opacity-0 translate-y-8">
+                <i class="fa-solid fa-fire text-4xl text-orange-500 mb-4"></i>
+                <h4 class="text-xl font-semibold mb-2">高效燃脂塑形</h4>
+                <p class="text-gray-600">大肌群运动消耗大量热量，提升基础代谢，打造紧致下半身线条。</p>
+            </div>
+            <!-- 好处5 -->
+            <div class="benefit-card bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow opacity-0 translate-y-8">
+                <i class="fa-solid fa-brain text-4xl text-orange-500 mb-4"></i>
+                <h4 class="text-xl font-semibold mb-2">改善核心稳定</h4>
+                <p class="text-gray-600">锻炼核心肌群，增强身体平衡感，降低日常运动受伤概率。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 动作教学模块 -->
+    <section id="tutorial" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4 md:px-8">
+            <h3 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold text-gray-800 text-center mb-16">
+                正确深蹲<span class="text-orange-500">分步教学</span>
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- 步骤1 -->
+                <div class="tutorial-card bg-white rounded-lg overflow-hidden shadow-lg opacity-0 translate-y-8">
+                    <div class="tutorial-img-container relative">
+                        <img src="https://picsum.photos/id/1/500/300" alt="深蹲步骤1：起始姿势" class="w-full h-48 object-cover">
+                        <div class="img-tooltip absolute inset-0 bg-orange-500/80 text-white flex items-center justify-center opacity-0 transition-opacity p-4">
+                            双脚与肩同宽，脚尖略微外展，核心收紧
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold mb-2">步骤1：起始姿势</h4>
+                        <p class="text-gray-600">双脚分开与肩同宽（或略宽），脚尖向外15-30°，双手自然放于胸前或体侧，挺胸收腹。</p>
+                    </div>
+                </div>
+                <!-- 步骤2 -->
+                <div class="tutorial-card bg-white rounded-lg overflow-hidden shadow-lg opacity-0 translate-y-8">
+                    <div class="tutorial-img-container relative">
+                        <img src="https://picsum.photos/id/2/500/300" alt="深蹲步骤2：下蹲准备" class="w-full h-48 object-cover">
+                        <div class="img-tooltip absolute inset-0 bg-orange-500/80 text-white flex items-center justify-center opacity-0 transition-opacity p-4">
+                            臀部向后坐，膝盖跟随脚尖方向，不要内扣
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold mb-2">步骤2：缓慢下蹲</h4>
+                        <p class="text-gray-600">臀部向后下方坐，膝盖缓慢弯曲，保持背部挺直，目光平视前方，不要低头或抬头。</p>
+                    </div>
+                </div>
+                <!-- 步骤3 -->
+                <div class="tutorial-card bg-white rounded-lg overflow-hidden shadow-lg opacity-0 translate-y-8">
+                    <div class="tutorial-img-container relative">
+                        <img src="https://picsum.photos/id/3/500/300" alt="深蹲步骤3：最低点" class="w-full h-48 object-cover">
+                        <div class="img-tooltip absolute inset-0 bg-orange-500/80 text-white flex items-center justify-center opacity-0 transition-opacity p-4">
+                            大腿与地面平行或略低，膝盖不超过脚尖
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold mb-2">步骤3：到达最低点</h4>
+                        <p class="text-gray-600">下蹲至大腿与地面平行（新手可略高），膝盖始终与脚尖方向一致，避免内扣或过度外展。</p>
+                    </div>
+                </div>
+                <!-- 步骤4 -->
+                <div class="tutorial-card bg-white rounded-lg overflow-hidden shadow-lg opacity-0 translate-y-8">
+                    <div class="tutorial-img-container relative">
+                        <img src="https://picsum.photos/id/4/500/300" alt="深蹲步骤4：起身" class="w-full h-48 object-cover">
+                        <div class="img-tooltip absolute inset-0 bg-orange-500/80 text-white flex items-center justify-center opacity-0 transition-opacity p-4">
+                            发力站起，重心在脚跟，全程保持核心收紧
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold mb-2">步骤4：发力起身</h4>
+                        <p class="text-gray-600">脚跟发力，臀部和腿部肌肉收紧，缓慢站回起始位置，全程保持核心稳定，不要弓背。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 常见错误模块 -->
+    <section id="mistakes" class="py-20 container mx-auto px-4 md:px-8">
+        <h3 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold text-gray-800 text-center mb-16">
+            深蹲<span class="text-orange-500">常见错误</span>对比
+        </h3>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 opacity-0 translate-y-8" id="mistakes-card">
+            <!-- 错误1 vs 正确1 -->
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h4 class="text-xl font-semibold mb-6 text-center">膝盖内扣 vs 膝盖与脚尖同向</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="text-center">
+                        <div class="w-full h-48 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-red-500 font-bold">错误动作</span>
+                        </div>
+                        <p class="text-red-600 font-semibold">膝盖内扣</p>
+                        <p class="text-gray-600 mt-2">易导致膝关节压力过大，增加受伤风险</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-full h-48 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-green-600 font-bold">正确动作</span>
+                        </div>
+                        <p class="text-green-600 font-semibold">膝盖与脚尖同向</p>
+                        <p class="text-gray-600 mt-2">分散膝关节压力，保护关节同时发力更高效</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 错误2 vs 正确2 -->
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h4 class="text-xl font-semibold mb-6 text-center">弓背下蹲 vs 挺直背部</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="text-center">
+                        <div class="w-full h-48 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-red-500 font-bold">错误动作</span>
+                        </div>
+                        <p class="text-red-600 font-semibold">弓背下蹲</p>
+                        <p class="text-gray-600 mt-2">压迫脊柱，易造成腰部损伤，发力效率低</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-full h-48 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+                            <span class="text-green-600 font-bold">正确动作</span>
+                        </div>
+                        <p class="text-green-600 font-semibold">挺直背部</p>
+                        <p class="text-gray-600 mt-2">核心收紧，脊柱保持中立，保护腰部且发力更稳</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 训练计划模块 -->
+    <section id="plan" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4 md:px-8">
+            <h3 class="text-[clamp(1.8rem,3vw,2.5rem)] font-bold text-gray-800 text-center mb-16">
+                新手<span class="text-orange-500">训练计划</span>
+            </h3>
+            <div class="bg-white rounded-lg shadow-lg p-8 max-w-4xl mx-auto opacity-0 translate-y-8" id="plan-card">
+                <table class="w-full text-left">
+                    <thead>
+                        <tr class="border-b-2 border-orange-200">
+                            <th class="py-4 px-2 text-gray-800">训练阶段</th>
+                            <th class="py-4 px-2 text-gray-800">训练频率</th>
+                            <th class="py-4 px-2 text-gray-800">训练内容</th>
+                            <th class="py-4 px-2 text-gray-800">注意事项</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-4 px-2 font-semibold">入门期（1-2周）</td>
+                            <td class="py-4 px-2">每周2次</td>
+                            <td class="py-4 px-2">徒手深蹲，每组10次，共3组</td>
+                            <td class="py-4 px-2">重点纠正动作，不求速度求标准</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-4 px-2 font-semibold">进阶期（3-4周）</td>
+                            <td class="py-4 px-2">每周2-3次</td>
+                            <td class="py-4 px-2">徒手深蹲，每组15次，共4组</td>
+                            <td class="py-4 px-2">尝试下蹲至大腿与地面平行</td>
+                        </tr>
+                        <tr>
+                            <td class="py-4 px-2 font-semibold">强化期（5周+）</td>
+                            <td class="py-4 px-2">每周3次</td>
+                            <td class="py-4 px-2">负重深蹲（哑铃/壶铃），每组12次，共4组</td>
+                            <td class="py-4 px-2">循序渐进增加负重，避免贪多</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部区域 -->
+    <footer class="bg-[#2C3E50] text-white py-8">
+        <div class="container mx-auto px-4 md:px-8 text-center">
+            <p>© 2025 深蹲科普 | 科学健身，安全第一</p>
+            <p class="text-gray-400 text-sm mt-2">本网页仅作科普参考，专业训练请咨询健身教练</p>
+        </div>
+    </footer>
+
+    <!-- 回到顶部按钮 -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-orange-500 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg opacity-0 transition-opacity hover:scale-105 hover:bg-orange-600">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- 引入交互脚本 -->
+    <script src="js/script.js"></script>
+</body>
+</html>
